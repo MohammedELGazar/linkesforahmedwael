@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+h1{
+    background: rgba(0, 0, 0, 0.212);
+    margin: 0px auto 0px auto;
+    width: fit-content ;color: gold;
+    animation-name: title;
+    animation-duration:20s;
+    animation-timing-function: ease-out;
+    font-style: italic;
+    font-size: 40px;
+
+}
+.facebook, .instagram, .twettr{
+    width: fit-content;
+    border-radius: 30px;
+    margin: 50px auto 0px auto;
+    font-size: 40px;
+    margin-top: 200px;
+}
+#facebook ,#instagram ,#twettr{
+    text-decoration: none;
+    color: black;
+    padding: 80px;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    
+}
+#facebook{
+    animation-name: facebook ;
+    animation-duration:3s;
+}
+#instagram{
+    animation-name: instagram;
+    animation-duration:3.5s;
+    /* animation-timing-function: ease-in-out; */
+}
+#twettr{
+    animation-name: twettr ;
+    animation-duration:4s;
+}
+#facebook:hover{
+    background-color: greenyellow;
+    color: gold;
+}
+#instagram:hover{
+    background-color: aqua;
+    color: gold;
+}
+#twettr:hover{
+    background-color:rgb(255, 0, 0) ;
+    color: gold;
+}
+@keyframes facebook{
+    0%{
+        background-color: greenyellow;
+        color: gold;
+        translate: 500px -500px;
+    }
+    25%{
+        background-color: greenyellow;
+        color: gold;
+        translate: 500px 100px;
+    }
+    50%{
+        background-color: greenyellow;
+        color: gold;
+    }
+    85% {
+        background-color: greenyellow;
+        color: gold;
+    }
+}
+@keyframes instagram{
+    0%{
+        background-color: aqua;
+        color: gold;
+        translate: 500px -700px;
+    }
+    25%{
+        background-color: aqua;
+        color: gold;
+        translate: 500px 100px;
+    }
+    50%{
+        background-color: aqua;
+        color: gold;
+    }
+    85% {
+        background-color: aqua;
+        color: gold;
+    }
+}
+@keyframes twettr{
+    0%{
+        background-color:rgb(255, 0, 0) ;
+        color: gold;
+        translate: -500px -700px;
+    }
+    25%{
+        background-color:rgb(255, 0, 0) ;
+        color: gold;
+        translate: -500px -150px;
+    }
+    50%{
+        background-color:rgb(255, 0, 0) ;
+        color: gold;
+    }
+    85% {
+        background-color:rgb(255, 0, 0) ;
+        color: gold;
+    }
+}
+@keyframes twettr{
+    0%{
+        background-color: rgb(212, 0, 255);
+        color: gold;
+        translate: -500px -900px;
+    }
+    25%{
+        background-color: rgb(212, 0, 255);
+        color: gold;
+        translate: -500px -150px;
+    }
+    50%{
+        background-color: rgb(212, 0, 255);
+        color: gold;
+    }
+    85% {
+        background-color: rgb(212, 0, 255);
+        color: gold;
+    }
+}
+@keyframes title{
+    0%{
+        color: greenyellow;
+        translate: 0px -900px;
+    }
+    25%{
+        translate: 0px 0px;
+    }
+}
